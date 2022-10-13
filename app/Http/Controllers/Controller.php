@@ -7,6 +7,15 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
+/**
+ * Class Controller
+ * @package App\Http\Controllers
+ *
+ * @OA\Info(
+ *     title="API Vehicle Documentation",
+ *     version="1.0.0",
+ * )
+ */
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
